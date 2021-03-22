@@ -1,0 +1,24 @@
+{
+  "name": "kidizen_science_api",
+  "version": "1.0.0",
+  "description": "CRUD API for Kidizen Science project",
+  "main": "server.js",
+  "dependencies": {
+    "@google-cloud/datastore": "4.0.0",
+    "@google-cloud/storage": "^5.4.0",
+    "axios": "^0.21.0",
+    "body-parser": "^1.19.0",
+    "crypto-js": "^4.0.0",
+    "express": "^4.17.1",
+    "google-gax": "^1.6.4",
+    "multer": "^1.4.2",
+    "uuid": "^8.3.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "K-8 Create",
+  "license": "(to be determined upon making project public)"
+}

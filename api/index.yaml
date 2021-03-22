@@ -1,0 +1,15 @@
+indexes:
+- kind: Observation
+  ancestor: yes
+  properties:
+  - name: data_image.url
+
+- kind: Observation
+  ancestor: yes
+  properties:
+  - name: data_number.description
+
+- kind: Project
+  properties:
+  - name: teacher_id
+  - name: description_image.url
